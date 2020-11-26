@@ -1,0 +1,33 @@
+Pre Requisites: (For linux distro)
+
+  Node.js
+
+    Angular requires a current, active LTS, or maintenance LTS version of Node.js.
+    >> sudo apt-get update
+    >> sudo apt-get install nodejs
+  
+    Check node js installation by following commands
+
+    >> node -v
+  npm
+  
+    Install node package manager 
+
+    >> sudo apt-get install npm.
+
+    Check npm installation by following command. it gives version of npm
+
+    >> npm -v
+Install the Angular CLI
+  You use the Angular CLI to create projects, generate application and library code, and perform a variety of ongoing development tasks such as testing, bundling, and deployment.
+
+  To install the Angular CLI, open a terminal window and run the following command:
+  
+  >> npm install -g @angular/cli
+  
+Voila! Now you have created environment to build angular projects. 
+  
+  
+ 
+  
+

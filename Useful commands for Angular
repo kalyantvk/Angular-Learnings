@@ -2,4 +2,4 @@ To Stop ng serve
   >> sudo lsof -t -i tcp:4200 | xargs kill -9
  
 To push existing repository to new git branch
-  >> git push origin localBranchName:remoteBranchName (localBranchName would master).
+  >> git push origin localBranchName:remoteBranchName (localBranchName would be master).

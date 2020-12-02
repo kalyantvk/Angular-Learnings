@@ -1,0 +1,13 @@
+--> Import Angular Routing while creating the project itself. So, that app-routing.module.ts file will be created.
+--> add the paths you want to create in the application by adding object to routes array in the app-routing.module.ts file
+--> make sure to import all the components which ever you are using in the routes array.
+--> create array with all the components used at the end of the file. Like given below,
+              export const routingComponents=[AppComponent,ItemsComponent];
+--> In app.module.ts file import this array using import { AppRoutingModule,routingComponents } from './app-routing.module';
+--> Add the imported array to Declarations inside app.module.ts file
+               declarations: [
+                AppComponent,
+                ItemsComponent,
+            --> routingComponents <--
+              ]
+--> Finally add <router-outlet></router-outlet> in your app.component.html. While routing to different paths the expected component will replace this <router-outlet>

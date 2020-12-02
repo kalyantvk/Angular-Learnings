@@ -1,0 +1,13 @@
+First in the app-routing.module.ts create the route with desired parameters. 
+  Ex: {path:'contactus/:id',component:ContactusComponent}
+  Here id is the parameter we are passing throught the route
+in the Component in which we want to parse the parameter passed via route 
+  --> Inject with ActivatedRoute 
+      constructor(private route:ActivatedRoute) { }
+in the ngOnInit() methodm,
+  --> subscribe to the params 
+      this.route.params.subscribe(params =>{
+        this.id=params['id'];
+      });
+      
+      here id is our instance variable. to which we are saving the params passed.

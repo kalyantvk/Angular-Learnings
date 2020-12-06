@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "proven-gasket-226301": {
+      "hosting": {
+        "MineSweeper": [
+          "proven-gasket-226301"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "proven-gasket-226301"
+  }
+}
